@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLoopPractice", "CoreLoopPractice\CoreLoopPractice.csproj", "{819CAFBE-0545-44DB-BE37-B43E0BD17BEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{819CAFBE-0545-44DB-BE37-B43E0BD17BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819CAFBE-0545-44DB-BE37-B43E0BD17BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819CAFBE-0545-44DB-BE37-B43E0BD17BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819CAFBE-0545-44DB-BE37-B43E0BD17BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332D09C5-8FE8-4176-9024-5119E210FC03}
+	EndGlobalSection
+EndGlobal

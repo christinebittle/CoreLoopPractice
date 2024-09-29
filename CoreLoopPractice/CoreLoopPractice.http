@@ -1,0 +1,6 @@
+@CoreLoopPractice_HostAddress = http://localhost:5085
+
+GET {{CoreLoopPractice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
