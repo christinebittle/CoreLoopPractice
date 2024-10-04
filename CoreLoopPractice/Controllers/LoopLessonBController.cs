@@ -5,7 +5,7 @@ namespace CoreLoopPractice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LoopLessonB : ControllerBase
+    public class LoopLessonBController : ControllerBase
     {
 
         /// <summary>

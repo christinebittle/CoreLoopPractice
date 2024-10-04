@@ -16,7 +16,7 @@ namespace CoreLoopPractice.Controllers
         /// GET api/LoopPractice/OneToValue/4 ->
         /// "1,2,3,4"
         /// </example>
-        /// /// <example>
+        /// <example>
         /// GET api/LoopPractice/OneToValue/8 ->
         /// "1,2,3,4,5,6,7,8"
         /// </example>
