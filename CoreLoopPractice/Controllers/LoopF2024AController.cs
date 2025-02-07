@@ -5,7 +5,7 @@ namespace CoreLoopPractice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LoopLessonAController : ControllerBase
+    public class LoopF2024AController : ControllerBase
     {
         /// <summary>
         /// Will output the numbers 0 to 15

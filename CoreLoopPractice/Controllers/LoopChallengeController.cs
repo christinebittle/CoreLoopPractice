@@ -97,5 +97,21 @@ namespace CoreLoopPractice.Controllers
         }
 
 
+        
+        /// <summary>
+        /// Outputs the cells of a chess board, separated by ,
+        /// </summary>
+        /// <returns>the cells of a chess board from A1 to H8</returns>
+        /// <example>
+        /// GET api/ChessBoard -> A1,A2,A3,A4,A5,A6,A7,A8,B1,... H7,H8
+        /// </example>
+        [HttpGet(template: "ChessBoard")]
+        public string ChessBoard()
+        {
+
+            return "";
+        }
+
+
     }
 }
