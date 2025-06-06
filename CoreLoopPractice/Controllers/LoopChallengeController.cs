@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Drawing;
 
 namespace CoreLoopPractice.Controllers
 {
@@ -108,8 +109,24 @@ namespace CoreLoopPractice.Controllers
         [HttpGet(template: "ChessBoard")]
         public string ChessBoard()
         {
+            List<int> Rows = new List<int>() {1,2,3,4,5,6,7,8};
+            List<string> Cols = new List<string>() {"A","B","C","D","E","F","H"};
+            string chessboard = "";
 
-            return "";
+            // 8 iterations
+            foreach (int Row in Rows)
+            {
+                // 8 iterations
+                foreach (string Col in Cols)
+                {
+                    // executes 8^2 = 64 times
+                    chessboard += Col + Row.ToString()  + ",";
+                }
+            }
+
+            
+
+            return chessboard;
         }
 
 
